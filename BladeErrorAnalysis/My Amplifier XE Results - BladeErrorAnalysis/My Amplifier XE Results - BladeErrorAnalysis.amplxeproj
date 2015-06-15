@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <connectionOption>localhost</connectionOption>
+ <rdmgr>
+  <timestamp type="u64_t">1430808790</timestamp>
+  <hostname>JARVIS</hostname>
+  <os>windows</os>
+  <product>Intel® VTune™ Amplifier XE 2015 Update 3</product>
+  <buildNumber type="s32_t">403110</buildNumber>
+  <logicalCPUCount type="s32_t">8</logicalCPUCount>
+  <CPUFrequency type="s64_t">2700000000</CPUFrequency>
+ </rdmgr>
+ <All_Configurations-All_Platforms>
+  <target_settings>
+   <selected_workload>
+    <localhost>launch</localhost>
+   </selected_workload>
+   <result_dir>
+    <localhost>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\My Amplifier XE Results - BladeErrorAnalysis</localhost>
+   </result_dir>
+   <result_pattern>
+    <localhost>r@@@{at}</localhost>
+   </result_pattern>
+   <workloads>
+    <localhost>
+     <attach type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>attach</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <attach.process_name>BladeErrorAnalysis.exe</attach.process_name>
+       <attach.pid type="null"></attach.pid>
+       <result_directory.path>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\My Amplifier XE Results - BladeErrorAnalysis\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\em64t\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\ia32\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\110\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\polyspace\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\gnuplot\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\ext\bin</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>attach</value>
+        </contextValue>
+       </context>
+      </workload>
+     </attach>
+     <launch type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>launch</targetName>
+       <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
+       <launch_app.app_to_launch>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug\BladeErrorAnalysis.exe</launch_app.app_to_launch>
+       <launch_app.working_folder>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis</launch_app.working_folder>
+       <launch_app.app_parameters></launch_app.app_parameters>
+       <launch_app.environment></launch_app.environment>
+       <launch_app.environment_prepend>PATH=</launch_app.environment_prepend>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\My Amplifier XE Results - BladeErrorAnalysis\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\em64t\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\ia32\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\110\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\polyspace\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\gnuplot\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\ext\bin</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeSystemWide</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>followChildStrategy</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>launch</value>
+        </contextValue>
+       </context>
+      </workload>
+     </launch>
+     <system type="pointer" type_id="dasID_cctrl2::SystemWideWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>system</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\My Amplifier XE Results - BladeErrorAnalysis\r@@@{at}</result_directory.path>
+       <search_directories>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>sym=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis\Debug</value>
+        </item>
+        <item>
+         <value>bin=C:\Workspace\VisualStudio\VS2013\BladeErrorAnalysis</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VC_ExecutablePath_x86)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(WindowsSDK_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(VS_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\$(MSBuild_ExecutablePath)</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\SysWow64</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Intel\iCLS Client</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\em64t\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Intel\MPI-RT\4.1.3.045\ia32\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\ProgramData\Oracle\Java\javapath</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\system32</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\Wbem</value>
+        </item>
+        <item>
+         <value>bin=C:\Windows\System32\WindowsPowerShell\v1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.1</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\Microsoft SQL Server\110\Tools\Binn</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\runtime\win64</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Softwares\MATLAB\R2015a\polyspace\bin</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common</value>
+        </item>
+        <item>
+         <value>bin=C:\Program Files\gnuplot\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\bin</value>
+        </item>
+        <item>
+         <value>bin=C:/Workspace\VisualStudio\VS2013\BladeErrorAnalysis\BladeErrorAnalysis\%DELTAROOT%\ext\bin</value>
+        </item>
+       </search_directories>
+       <context>
+        <contextValue>
+         <id>allowMultipleRuns</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>analyzeKvmGuest</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>cpuMask</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>customCollector</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>followChild</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>goodFastFrameThreshold</id>
+         <value type="double">100</value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestKallsyms</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmGuestModules</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>kvmProfileGuest</id>
+         <value type="null"></value>
+        </contextValue>
+        <contextValue>
+         <id>mrteMode</id>
+         <value>native</value>
+        </contextValue>
+        <contextValue>
+         <id>slowGoodFrameThreshold</id>
+         <value type="double">40</value>
+        </contextValue>
+        <contextValue>
+         <id>targetDurationType</id>
+         <value>short</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>system</value>
+        </contextValue>
+       </context>
+      </workload>
+     </system>
+    </localhost>
+   </workloads>
+  </target_settings>
+  <searchDirs>
+   <searchCategory>
+    <category type="u8_t">1</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">2</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">3</category>
+   </searchCategory>
+   <searchCategory>
+    <category type="u8_t">4</category>
+   </searchCategory>
+  </searchDirs>
+ </All_Configurations-All_Platforms>
+ <contextValues>
+  <contextValue>
+   <id>emulatorByCtxKnob</id>
+   <value></value>
+  </contextValue>
+ </contextValues>
+</root>
